@@ -51,8 +51,8 @@ All in one place:
 $number1 = '100,123.45';
 $number2 = '50,123.45';
 
-// use Sineld\Money\Money;
-// $money = (new Money())
+use Sineld\Money\Money;
+$money = (new Money())
     ->make($number1) // Create a new Money instance.
     ->setDecimals(4) // Set decimals size.
     ->sum($number2) // Add $number2 variable(s) value to the $money
