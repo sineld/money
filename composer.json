@@ -1,0 +1,23 @@
+{
+    "name": "sineld/money",
+    "description": "Simple yet useful money operations for php.",
+    "license": "MIT",
+    "authors": [{
+        "name": "Sinan Eldem",
+        "email": "sinan@sinaneldem.com.tr",
+        "homepage": "https://sinaneldem.com.tr"
+    }],
+    "homepage": "https://github.com/sineld/money",
+    "keywords": [
+        "php",
+        "money",
+        "math",
+        "laravel"
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+		"files": ["src/Money.php"]
+	}
+}
